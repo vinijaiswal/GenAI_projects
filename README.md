@@ -37,15 +37,3 @@ If you have:
 - A custom pipeline or app idea
 ...open a PR or start a discussion!
 
-
-
-## Featured app: CarePath India
-
-`Apps/carepath_india` contains a deployable Gradio healthcare-navigation app for India. It is designed to be safer than a generic LLM-generated healthcare chatbot by using deterministic emergency red-flag escalation, clear non-diagnostic language, and India-specific next-step resources.
-
-Run it with:
-
-```bash
-pip install -r Apps/carepath_india/requirements.txt
-python Apps/carepath_india/app.py
-```

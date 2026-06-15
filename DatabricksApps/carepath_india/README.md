@@ -12,10 +12,15 @@ CarePath India is a Gradio healthcare-navigation app intended for Databricks App
 ## Run locally
 
 ```bash
-pip install -r Apps/carepath_india/requirements.txt
-python Apps/carepath_india/app.py
+pip install -r DatabricksApps/carepath_india/requirements.txt
+python DatabricksApps/carepath_india/app.py
 ```
 
 ## Safety model
 
 The app uses deterministic keyword checks for emergency red flags such as chest pain, difficulty breathing, stroke-like symptoms, severe bleeding, poisoning, seizure, unconsciousness, and self-harm. Non-emergency requests are routed to a likely specialty and include preparation steps and India-specific resources such as 108/112 emergency calling and public-facility options.
+
+
+## Repository placement
+
+This app lives under `DatabricksApps/carepath_india` so it stays isolated from the general GenAI examples and notebook collection in the repository root.
